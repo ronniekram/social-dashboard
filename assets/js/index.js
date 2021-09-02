@@ -24,7 +24,7 @@ const renderProfile = (profile) => {
   profCard.innerHTML = `
     <div class="media ${className}"></div>
     <div class="username">
-      <img src="${icon}" /> 
+      <img src="${icon}" alt="social media icon" /> 
       ${username}
     </div>
 
@@ -59,7 +59,7 @@ const renderOverview = (overview) => {
       <p class="heading">${heading}</p>
 
       <p class="icon">
-        <img src="${icon}" />
+        <img src="${icon}" alt="social media icon" />
       </p>
     </div>
   `;
