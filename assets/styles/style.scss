@@ -82,6 +82,9 @@ header {
 }
 
 #profiles {
+  h2 {
+    display: none;
+  }
 
   .profile {
     display: flex;
@@ -165,6 +168,10 @@ header {
 
   h1 {
     margin: 1.5rem;
+  }
+
+  h2 {
+    display: none;
   }
 
   .overview {
